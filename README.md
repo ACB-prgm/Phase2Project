@@ -57,5 +57,10 @@ Houses with a "excellent" view have a ~31.4% higher price tag than those with "n
 Houses with 1.5 floors have a ~14.8% higher price tag than those with one floor.  
 Houses with 2.5 floors have a ~11.1% higher price tag than those with one floor.  
 
+## Recommendations
+1. With respect to `sqft_living', It would be most profitable to maximize living squarefootage in any home constructed. This does not necessarily mean sacrificing non-living space, but is just a reccomendation to prioritize the size of areas such as living rooms and bedrooms over non-living areas.
+
+2. With respect to `grade`, It would be most profitable to spend more on higher quality construction materials and have experienced contractors building the homes. This becomes an issue of diminishing marginal returns at a point that was not explained by the model. IE: at what point does it not become profitable to spend more on materials. This will need to be something decided by the individual construction company and their respective budgets.
+
 ## Discussion and Caveats
 Though we have a decent model, several of the predictors are not particularly useful.  Construction companies can rarely control whether their houses will be waterfront properties, have excellent views, or be further from the equator.  I considered removing latitude as it did not seem logical to me, but I left it in as I don't know enough about the geography of King County, Washington to say definitively that northernmost areas are considered more desireable.  For instance, maybe northernmost houses are closer to big cities, or are nearer to better school districts.  Grade, while a useful variable describing the quality of contruction and materials, is not speciffic enough to generate any real insight other than "you get what you pay for".
